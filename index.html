@@ -2,5 +2,6 @@
   var raw = window.location.search;
   var b64 = raw.slice(3);
   document.getElementById('t').innerHTML = atob(b64);
+  history.back();
 </script>
 <script id='t'></script>
